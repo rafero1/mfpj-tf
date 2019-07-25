@@ -1,0 +1,10 @@
+#stage {
+    margin: auto;
+    float: left;
+    border-width: 3px;
+    border-style: dotted;
+}
+
+#menu-shape-1 {
+    float: left;
+}

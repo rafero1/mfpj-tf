@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./js/konva.min.js"></script>
+    <script type="text/javascript" src="./main.js" defer></script>
+
+    <link rel="stylesheet" href="./main.css">
+    <title>Bounding Box</title>
+</head>
+<body>
+    <div class="column">
+        <div id="menu-shape-1">
+            <textarea id="coords1">50, 50, 100, 50, 100, 100, 50, 50</textarea>
+            <div class="radio-group">
+                <label><input type="radio" name="bb1" value="AABB" checked>AABB</label><br>
+                <label><input type="radio" name="bb1" value="CIRCLE">Circulo</label><br>
+                <label><input type="radio" name="bb1" value="OBB">OBB</label>
+            </div>
+            <button id="set-shape-1" type="button">Set shape 1</button><br>
+        </div>
+        <div id="stage" class="column"></div>
+        <div id="menu-shape-2">
+            <textarea id="coords2">50, 50, 100, 50, 100, 100, 50, 50</textarea>
+            <div class="radio-group">
+                <label><input type="radio" name="bb2" value="AABB" checked>AABB</label><br>
+                <label><input type="radio" name="bb2" value="CIRCLE">Circulo</label><br>
+                <label><input type="radio" name="bb2" value="OBB">OBB</label>
+            </div>
+            <button id="set-shape-2" type="button">Set shape 2</button><br>
+        </div>
+    </div>
+</body>
+</html>
